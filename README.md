@@ -15,17 +15,17 @@ Sebagai : Web Server
 - Bind9
 Sebagai : DNS Server
 
-![bind9]()
+![bind9](BIND.png)
 - SSH (Secure Shell) 
 Sebagai : Remote Access Tool
 
-![ssh]()
+![ssh](ssh.png)
 - SSL/TLS (Let's Encrypt)
 Sebagai : Security Service
 
-![ssl]()
+![ssl](let's encrypt.png)
 - HAProxy
 Sebagai : Load Balancer dan Proxy Server
 
-![HAProxy]()
+![HAProxy](haproxy.png)
 
