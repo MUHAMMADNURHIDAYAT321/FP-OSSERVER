@@ -23,7 +23,7 @@ Sebagai : Remote Access Tool
 - SSL/TLS (Let's Encrypt)
 Sebagai : Security Service
 
-![ssl](let's encrypt.png)
+![ssl](encrypt.png)
 - HAProxy
 Sebagai : Load Balancer dan Proxy Server
 
