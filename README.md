@@ -11,26 +11,31 @@
 
 ## Layanan Server (04-12-2024)
 - OpenSSH 
+
 Sebagai : SSH Server/Remote Access Tool
 
 ![SSH SERVER](ssh.png)
 
 - vsFTPD
+
 Sebagai : FTP Server
 
 ![vsFTPD](ftp.png)
 
 - Apache2
-Sebagai : FTP Server
+
+Sebagai : Web Server
 
 ![Apache2](apache2.png)
 
 - MySQL dan phpMyAdmin
+
 Sebagai : Database Server
 
 ![MySQL dan phpMyAdmin](mysql.png)
 
 - Redis
+
 Sebagai : Cache Server
 
 ![Redis](redis.png)
