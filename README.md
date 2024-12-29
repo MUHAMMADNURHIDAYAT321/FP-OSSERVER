@@ -198,7 +198,7 @@ systemctl reload apache2
 ```
 #### Tampilan web
 Tampilan Home
-![foto](mbuh.png)
+![foto](home.png)
 
 Tampilan pesan 
-![foto](mbuh.png)
+![foto](pesan.png)
