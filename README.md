@@ -123,25 +123,57 @@ Akses Apache2 di browser dengan ketik ip server anda
 
 ## 4. Instalasi DATABASE SERVER
 1. Instalasi
-Langkah 1:Installasi paket mariadb
+Langkah 1:Installasi MySQL dan phpmyadmin
 ```
-sudo apt-get update
-sudo apt-get install mariadb-server
+sudo apt install php libapache2-mod-php php-mysql mysql-server -y 
+sudo apt install phpmyadmin -y
 ```
+
 Langkah 2:Untuk mengamankan installasi (Opsional)
 ```
 sudo mysql_secure_installation
 ```
 
-Langkah 3:Lakukan instalasi paket
+Langkah 3:Package configuration
 ```
 sudo apt-get install phpmyadmin
 ```
 
 Langkah 4:Restart ulang layanan
 ```
-sudo systemctl restart apache2
+1) Saat ada pertanyaan :
+Configure database for phpmyadmin with dbconfig-common?
+
+Jawab : "yes"
+
+2) Kemudian mengisi password, isi password lalu klik "ok". Kemudian konfigurasi password lalu klik "ok".
 ```
+
+Langkah 5:Masuk dir.conf
+```
+sudo nano /etc/apache2/mods-enabled/dir.conf
+```
+
+Langkah 6:Edit dir.conf
+```
+<IfModule mod_dir.c>
+    DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+</IfModule>
+```
+
+Langkah 7:Masuk info.php
+```
+sudo nano /var/www/html/info.php
+```
+
+Langkah 8:Edit info.php
+```
+<?php
+phpinfo();
+?>
+```
+
+2. Tes
 ![Apache2 default](defaultphp.png)
 
 ## 5. Redis (Cache Server)
