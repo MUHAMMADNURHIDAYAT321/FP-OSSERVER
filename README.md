@@ -4,12 +4,12 @@
 - Nim : 23.83.0993
 - Matkul : OS Server & Sistem Admin
 
-## OS yang digunakan (04-12-2024)
+## Spesifikasi yang digunakan (04-12-2024)
 - Ubuntu Server 24.04.1
 - RAM 8GB
 - Storage 15GB
 
-## Layanan (04-12-2024)
+## Layanan Server (04-12-2024)
 - OpenSSH 
 Sebagai : SSH Server/Remote Access Tool
 
