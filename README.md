@@ -87,7 +87,7 @@ anonymous_enable=NO
 local_enable=YES
 write_enable=YES
 
-## 3. Instalasi WEB SERVER
+## 3. Instalasi Apache2
 Instalasi Apache2
 Langkah 1: Instalasi Paket Apache2
 ```
@@ -176,7 +176,7 @@ phpinfo();
 2. Tes
 ![Apache2 default](defaultphp.png)
 
-## 5. Redis
+## 5. Instalasi Redis 
 1.Instal Redis dengan perintah berikut:
 ```
 sudo apt install redis-server -y
@@ -198,7 +198,7 @@ sudo systemctl enable redis
 sudo systemctl status redis
 ```
 
-## 6. Pengaplikasian website
+## 6. Pengaplikasian Website
 1. Konfigurasi file kedalam ubuntu
 Langkah 1: pemindahan file Kita dapat memindahkan file html yang telah dibuat dengan menggunakan Filezilla FTP, atau dengan git clone website yang telah dibuat (disini saya menggunakan git clone saja).
 ```
