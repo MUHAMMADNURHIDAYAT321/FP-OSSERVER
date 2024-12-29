@@ -228,9 +228,9 @@ Aktifkan web.conf dan muat ulang layanan apache.
 a2ensite web.conf
 systemctl reload apache2
 ```
-#### Tampilan web
-Tampilan Home
+## 7. Demo
+##Tampilan Home
 ![foto](homes.png)
 
-Tampilan pesan 
+##Tampilan pesan 
 ![foto](pesanan.png)
