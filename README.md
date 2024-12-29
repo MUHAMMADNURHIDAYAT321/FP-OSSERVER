@@ -60,6 +60,7 @@ Untuk melakukan remote menggunakan ssh gunakan perintah, Contoh ssh ghalih@123.4
 ```
 ssh [username]@[ip addess]
 ```
+
 ## 2. Instalasi FTP SERVER
 1. Instalasi FTP Server
 Langkah 1. Masuk ke terminal Ubuntu dan instal layanan vsftpd:
@@ -80,6 +81,7 @@ Copy code
 ```
 sudo nano /etc/vsftpd.conf
 ```
+
 ### Langkah 3. edit file
 anonymous_enable=NO
 local_enable=YES
@@ -117,7 +119,8 @@ ufw allow in "Apache"
 ufw status
 ```
 Akses Apache2 di browser dengan ketik ip server anda 
-![foto](https://raw.githubusercontent.com/ghalihstyj/Final-Project_OS-Server_System_Admin/dc277975a54be37aa930a3f1e49d420a7fe0c1e9/3.png)
+![Apache2 default](default.png)
+
 ## 4. Instalasi DATABASE SERVER
 1. Instalasi
 Langkah 1:Installasi paket mariadb
@@ -139,7 +142,7 @@ Langkah 4:Restart ulang layanan
 ```
 sudo systemctl restart apache2
 ```
-![foto](https://raw.githubusercontent.com/ghalihstyj/Final-Project_OS-Server_System_Admin/460f6222bcb5f5b96569f2cda2b0dc0588ef896f/SS/phpmyadmin.png)
+![Apache2 default](defaultphp.png)
 
 ## 5. Redis (Cache Server)
 1.Instal Redis dengan perintah berikut:
@@ -195,13 +198,7 @@ systemctl reload apache2
 ```
 #### Tampilan web
 Tampilan Home
-![foto](https://raw.githubusercontent.com/ghalihstyj/Final-Project_OS-Server_System_Admin/460f6222bcb5f5b96569f2cda2b0dc0588ef896f/SS/awal.png)
+![foto](mbuh.png)
 
-Tampilan Paket 
-![foto](https://raw.githubusercontent.com/ghalihstyj/Final-Project_OS-Server_System_Admin/460f6222bcb5f5b96569f2cda2b0dc0588ef896f/SS/paket.png)
-
-Tampilan Kupon
-![foto](https://raw.githubusercontent.com/ghalihstyj/Final-Project_OS-Server_System_Admin/460f6222bcb5f5b96569f2cda2b0dc0588ef896f/SS/kupon.png)
-
-Tampilan Kontak 
-![foto](https://raw.githubusercontent.com/ghalihstyj/Final-Project_OS-Server_System_Admin/460f6222bcb5f5b96569f2cda2b0dc0588ef896f/SS/kontak.png)
+Tampilan pesan 
+![foto](mbuh.png)
