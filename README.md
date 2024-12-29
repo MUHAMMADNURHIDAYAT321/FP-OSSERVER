@@ -35,7 +35,7 @@ Sebagai : Cache Server
 
 ![Redis](redis.png)
 
-## 1. Instalasi OPEN SSH SERVER
+## 1. Instalasi OpenSSH 
 Langkah 1: Lakukan Instalasi Paket SSH Server 
 ``` 
 sudo apt install openssh-server -y 
@@ -61,8 +61,8 @@ Untuk melakukan remote menggunakan ssh gunakan perintah, Contoh ssh ghalih@123.4
 ssh [username]@[ip addess]
 ```
 
-## 2. Instalasi FTP SERVER
-1. Instalasi FTP Server
+## 2. Instalasi vsFTPD 
+1. Instalasi vsFTPD 
 Langkah 1. Masuk ke terminal Ubuntu dan instal layanan vsftpd:
 Copy code
 ```
@@ -121,7 +121,7 @@ ufw status
 Akses Apache2 di browser dengan ketik ip server anda 
 ![Apache2 default](default.png)
 
-## 4. Instalasi DATABASE SERVER
+## 4. Instalasi MySQL dan phpMyAdmin
 1. Instalasi
 Langkah 1:Installasi MySQL dan phpmyadmin
 ```
@@ -176,7 +176,7 @@ phpinfo();
 2. Tes
 ![Apache2 default](defaultphp.png)
 
-## 5. Redis (Cache Server)
+## 5. Redis
 1.Instal Redis dengan perintah berikut:
 ```
 sudo apt install redis-server -y
