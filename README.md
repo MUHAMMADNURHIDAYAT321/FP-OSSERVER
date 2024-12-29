@@ -63,25 +63,24 @@ sudo systemctl status ssh
 ```
 Untuk melakukan remote menggunakan ssh gunakan perintah, Contoh ssh ghalih@123.456.789
 ```
-ssh [username]@[ip addess]
+ssh [username]@[IP Address]
 ```
 
 ## 2. Instalasi vsFTPD 
-1. Instalasi vsFTPD 
-Langkah 1. Masuk ke terminal Ubuntu dan instal layanan vsftpd:
+Langkah 1. Masuk ke terminal Ubuntu dan instal layanan vsFTPD:
 Copy code
 ```
 sudo apt update
 sudo apt install vsftpd
 ```
-Langkah 2. Pastikan layanan vsftpd berjalan:
+Langkah 2. Pastikan layanan vsFTPD berjalan:
 Copy code
 ```
 sudo systemctl start vsftpd
 sudo systemctl enable vsftpd
 ```
 2. Konfigurasi FTP Server
-Langkah 1. Edit file konfigurasi vsftpd:
+Langkah 1. Edit file konfigurasi vsFTPD:
 Copy code
 ```
 sudo nano /etc/vsftpd.conf
@@ -94,6 +93,7 @@ write_enable=YES
 
 ## 3. Instalasi Apache2
 Instalasi Apache2
+
 Langkah 1: Instalasi Paket Apache2
 ```
 apt update && apt upgrade
@@ -101,6 +101,7 @@ apt-get install apache2
 ```
 
 Konfigurasi Apache2
+
 Langkah 1: Buka File Konfigurasi Apache2
 ```
 nano /etc/apache2/sites-available/000-default.conf
@@ -205,6 +206,7 @@ sudo systemctl status redis
 
 ## 6. Pengaplikasian Website
 1. Konfigurasi file kedalam ubuntu
+
 Langkah 1: pemindahan file Kita dapat memindahkan file html yang telah dibuat dengan menggunakan Filezilla FTP, atau dengan git clone website yang telah dibuat (disini saya menggunakan git clone saja).
 ```
 cd /tmp && git clone "nama repository"
